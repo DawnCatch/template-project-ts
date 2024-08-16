@@ -1,0 +1,22 @@
+{
+    "name": "template-project-ts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier --write .",
+        "build": "tsc && tsc-alias"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "tsc-alias": "^1.8.10",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^8.1.0",
+        "@typescript-eslint/parser": "^8.1.0",
+        "eslint": "^9.9.0"
+    }
+}
